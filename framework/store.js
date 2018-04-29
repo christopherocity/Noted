@@ -7,7 +7,7 @@ const Store = {};
 
 const options = {};
 
-options.projectId = process.env.PROJECT_ID || 'noted_samples';
+options.projectId = process.env.PROJECT_ID || 'noted-samples';
 
 if (process.env.KEY_FILE_NAME) {
     options.keyFilename = process.env.KEY_FILE_NAME;

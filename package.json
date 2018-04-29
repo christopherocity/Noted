@@ -6,7 +6,9 @@
     "start": "node ./bin/www"
   },
   "dependencies": {
+    "@angular/cli": "^1.7.4",
     "@google-cloud/storage": "^1.6.0",
+    "@tensorflow/tfjs": "^0.10.3",
     "axios": "^0.18.0",
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.9",
